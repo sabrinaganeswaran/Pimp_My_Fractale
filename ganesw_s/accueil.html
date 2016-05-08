@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="Calculatrice" http-equiv="Content-Type" content="text/html;charset=utf8" />
+    <link rel="stylesheet" type="text/css" href="sheet.css">
+    <title>Fractale de Mandelbrot</title>
+  </head>
+  <header>
+    <nav id="nav_head">
+      <center><h1 id="title">Fractale de Mandelbrot</h1></center>
+    </nav>
+  </header>
+  <body>
+  <div id="bloc">
+    <center><p id="premierp">Z<sub>n+1</sub> = Z<sub>n</sub><sup>k</sup> + c</p></center>
+    <form action="fractale.php" method="POST">
+      <center><p>n = <input type="text" name="n" id="n" placeholder="Nombre d'itération (50)"/></p></center>
+      <center><p>k = <input type="text" name="k" id="k" placeholder="Degré (2)"/></p></center>
+      <center><input type="submit" id="button" name="button" value="Valider" /></center>
+    </form>
+    </div>
+  </body>
+</html>
